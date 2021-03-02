@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>BLOGS</title>
+</head>
+<body>
+    <ul>
+        {% for blog in latest_blog %}
+        <li>{{blog.title}}</li>
+        <li>{{blog.date}}</li>
+        <li>{{blog.body}}</li>
+        <li>{{blog.images}}</li>
+        {%endfor%}
+    </ul>
+    
+</body>
+</html>

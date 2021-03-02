@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    /* background: #eee; */
+    padding: 25px 50px;
+    margin-top: 100px; 
+    padding: 15px;
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.youtube {
+    color: #f1200d;
+  }
+  
+  a.facebook {
+    color: #091f3b;
+  }
+  
+  a.twitter {
+    color: #38a0f5;
+  }
+  
+  a.instagram {
+    color: rgb(95, 4, 4);
+  }
+  
